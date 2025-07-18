@@ -12,13 +12,10 @@ class WhatsAppCloneApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WhatsApp UI',
+
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: const Color(0xFF075E54),
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF128C7E)),
-        useMaterial3: true,
-      ),
+
+
       home: const HomeScreen(),
     );
   }
